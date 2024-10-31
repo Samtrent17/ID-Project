@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Picture Over Border</title>
+    <style>
+        /* Container for the whole structure */
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        /* Line on either side of the profile picture */
+        .line {
+            height: 2px;
+            background-color: #d93b8a;
+            width: 100px;
+        }
+
+        /* Styling for the profile picture */
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 4px solid #3057cb;
+            background-color: #f3f3f3; /* Placeholder for image */
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* Placeholder image styling */
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="line"></div>
+        <div class="profile-pic">
+            <!-- Replace 'your-profile-pic.jpg' with the path to your image -->
+            <img src="ID.jpg" alt="Profile Picture">
+        </div>
+        <div class="line"></div>
+    </div>
+</body>
+</html>
